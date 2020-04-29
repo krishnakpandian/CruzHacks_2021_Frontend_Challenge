@@ -5,12 +5,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 I am running this on Node v10.15.1
 
 You can view the backend content via
-## 'curl "https://firestore.googleapis.com/v1/projects/cruzhacks2021-pandian-db/databases/(default)/documents/getHackerInfo?key=AIzaSyBJoxuui9gVJpVh_Pl2u0tXyYXQEajP2CQ" ' The quotations marks matter
+## 'curl "https://firestore.googleapis.com/v1/projects/cruzhacks2021-pandian-db/databases/(default)/documents/getHackerInfo?key=AIzaSyBJoxuui9gVJpVh_Pl2u0tXyYXQEajP2CQ"  The quotations marks matter
 
 ## You can git clone on the repository and run npm install to retreive node modules
 ## Use npm start to run the project in localhost:3000 or npm test to run the test script
-## You can also view it here on this AWS app https://master.d37os29dr4uuoh.amplifyapp.com/ if it doesn't work for any reason
-## Available Scripts
+## If it doesn't work for any reason you can also view it here on this AWS app https://master.d37os29dr4uuoh.amplifyapp.com/ 
+## Other Info
 
 I decided to add a little backend to this challenge due to the number of exams I have this week and that I am still new to the backend I thought it would be best to study for those and show some of the backend skills I have while not doing the challenge entirely (I.e it's not a complete backend challenge)
 
