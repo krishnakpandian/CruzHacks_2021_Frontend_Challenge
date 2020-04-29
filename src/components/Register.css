@@ -1,0 +1,53 @@
+.Form-Header {
+    font-family: Lato;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 100px;
+    letter-spacing: 0.05em;
+    text-indent: 3px;
+    color: #4A38F2;
+    margin-bottom: 20px;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 93px;
+    padding-right: 93px;
+}
+
+.fieldset {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+input[type='radio']:after {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    margin-top: 10px;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #6F6FE8;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+
